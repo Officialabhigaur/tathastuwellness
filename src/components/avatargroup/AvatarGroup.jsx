@@ -1,6 +1,6 @@
 export default function AvatarGroup() {
     return (
-        <div className="flex w-[260px] sm:w-fit  items-center sm:justify-center p-1 rounded-full  bg-white border border-gray-300 text-sm">
+        <div className="flex w-[260px] sm:w-fit  items-center sm:justify-center p-1 px-2 rounded-full  bg-green-900   text-white text-sm">
             <div className="flex items-center">
                 <img className="w-[20px] sm:w-[30px] rounded-full border-3 border-white"
                     src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=50"

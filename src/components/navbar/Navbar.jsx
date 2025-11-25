@@ -42,7 +42,7 @@ export default function Navbar() {
       }`}
     >
       <Link href="/" className="flex items-center gap-2">
-        Indian Ayurveda Ashram
+        Tathastu Ayurveda Wellness
       </Link>
       <div className="hidden items-center md:gap-8 lg:gap-9 xl:flex lg:pl-20">
         {navLinks.map((link) => (
