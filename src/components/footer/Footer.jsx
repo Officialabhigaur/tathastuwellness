@@ -1,0 +1,70 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Footer() {
+  const navLinks = [
+    {
+      name: "Home",
+      href: "/",
+    },
+    {
+      name: "About",
+      href: "#features",
+    },
+    {
+      name: "Services",
+      href: "#pricing",
+    },
+    {
+      name: "Contact",
+      href: "#docs",
+    },
+  ];
+  return (
+    <footer className="px-6 md:px-16 lg:px-24 xl:px-32 mt-40 w-full text-slate-500">
+      <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-200 pb-6">
+        <div className="md:max-w-114">
+          <Image
+            className="h-9 md:h-9.5 w-auto shrink-0"
+            src="/assets/logo.svg"
+            alt="Logo"
+            width={140}
+            height={40}
+            priority
+            fetchPriority="high"
+          />
+          <p className="mt-6">
+            A sacred space for healing and self-discovery through ancient Vedic
+            traditions.
+          </p>
+        </div>
+        <div className="flex-1 flex items-start md:justify-end gap-20">
+          <div>
+            <h2 className="font-semibold mb-5 text-gray-800">Company</h2>
+            <ul className="space-y-2">
+              {navLinks.map((link, index) => (
+                <li key={index}>
+                  <Link href={link.href} className="hover:text-[#40c161]">
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="font-semibold mb-5 text-gray-800">Get in touch</h2>
+            <div className="space-y-2">
+              <p> +31 654697512</p>
+              <p> +31 612546481</p>
+              <p>contact@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="pt-4 text-center pb-5">
+        Copyright 2024 © <a href="https://prebuiltui.com">Abhishek Gaur</a>. All
+        Right Reserved.
+      </p>
+    </footer>
+  );
+}
