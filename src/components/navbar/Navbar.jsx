@@ -89,7 +89,7 @@ export default function Navbar() {
         >
           <PhoneCall size={15} /> +31 612546481
         </Link>
-        <button className="hidden cursor-pointer xl:block  transition px-4 py-2   bg-[#2f6246] text-white rounded-md">
+        <button className="hidden cursor-pointer xl:block  transition px-4 py-2   bg-green-800 text-white rounded-md">
           Sign in
         </button>
         <button

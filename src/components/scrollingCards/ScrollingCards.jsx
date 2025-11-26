@@ -5,24 +5,37 @@ const ScrollingCards = () => {
   const [stopScroll, setStopScroll] = useState(false);
   const cardData = [
     {
-      title: "Unlock Your Creative Flow",
-      image:
-        "https://images.unsplash.com/photo-1543487945-139a97f387d5?w=1200&auto=format&fit=crop&q=60",
+      title: "Explore Local Places with Guided Travel Support",
+      image: "/scroll1.jpeg",
     },
     {
-      title: "Design Your Digital Future",
-      image:
-        "https://images.unsplash.com/photo-1529254479751-faeedc59e78f?w=1200&auto=format&fit=crop&q=60",
+      title: "Enjoy Peaceful Evenings & Dinner Together",
+      image: "/scroll2.jpeg",
     },
     {
-      title: "Build with Passion, Ship with Pride",
-      image:
-        "https://images.unsplash.com/photo-1618327907215-4e514efabd41?w=1200&auto=format&fit=crop&q=60",
+      title: "Transformative Workshops & Hands-On Learning",
+      image: "/scroll3.jpeg",
     },
     {
-      title: "Think Big, Code Smart",
-      image:
-        "https://images.unsplash.com/photo-1583407723467-9b2d22504831?w=1200&auto=format&fit=crop&q=60",
+      title: "Holistic Energy & Healing Therapies",
+      image: "scroll4.jpeg",
+    },
+
+    {
+      title: "Authentic Ayurvedic Consultations",
+      image: "/scroll5.jpeg",
+    },
+    {
+      title: "Enjoy Peaceful Evenings & Dinner Together",
+      image: "/scroll7.jpeg",
+    },
+    {
+      title: "Transformative Workshops & Hands-On Learning",
+      image: "/scroll6.jpeg",
+    },
+    {
+      title: "Holistic Energy & Healing Therapies",
+      image: "scroll4.jpeg",
     },
   ];
 
@@ -44,8 +57,8 @@ const ScrollingCards = () => {
                 }
             `}</style>
 
-      <div>
-        <h2 className="text-2xl   sm:text-4xl font-semibold text-center mx-auto">
+      <div className="px-3">
+        <h2 className="text-2xl text-green-900  sm:text-4xl font-semibold text-center mx-auto">
           A Complete Pathway to Holistic Wellness
         </h2>
         <p className="text-sm text-slate-500 text-justify sm:text-center mt-2 max-w-6xl mx-auto">
@@ -70,7 +83,7 @@ const ScrollingCards = () => {
           }}
         >
           <div className="flex">
-            {[...cardData, ...cardData].map((card, index) => (
+            {[...cardData].map((card, index) => (
               <div
                 key={index}
                 className="w-56 mx-4 h-[20rem] relative group hover:scale-90 transition-all duration-300"
