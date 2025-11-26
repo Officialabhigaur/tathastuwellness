@@ -37,7 +37,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`flex items-center justify-between fixed z-50 top-0 w-full px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-slate-200 bg-white/40 ${
+      className={`flex items-center justify-between fixed z-50 top-0 w-full px-6 md:px-16 lg:px-24 xl:px-32 py-4   bg-white/40 ${
         openMobileMenu ? "bg-white/80" : "backdrop-blur"
       }`}
     >
@@ -89,7 +89,7 @@ export default function Navbar() {
         >
           <PhoneCall size={15} /> +31 612546481
         </Link>
-        <button className="hidden cursor-pointer xl:block  transition px-4 py-2 border  bg-[#2f6246] text-white rounded-md">
+        <button className="hidden cursor-pointer xl:block  transition px-4 py-2   bg-[#2f6246] text-white rounded-md">
           Sign in
         </button>
         <button
