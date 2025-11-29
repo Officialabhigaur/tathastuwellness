@@ -78,9 +78,9 @@ export default function Navbar() {
             {link.name}
           </Link>
         ))}
-        <button className="cursor-pointer bg-green-800 py-2 mt-5 rounded text-white">
+        {/* <button className="cursor-pointer bg-green-800 py-2 mt-5 rounded text-white">
           Sign in
-        </button>
+        </button> */}
       </div>
 
       <div className="flex items-center gap-4">
@@ -97,9 +97,9 @@ export default function Navbar() {
         >
           <PhoneCall size={15} /> +91 9927067684
         </Link>
-        <button className="hidden cursor-pointer xl:block  transition px-4 py-2   bg-green-800 text-white rounded-md">
+        {/* <button className="hidden cursor-pointer xl:block  transition px-4 py-2   bg-green-800 text-white rounded-md">
           Sign in
-        </button>
+        </button> */}
         <button
           onClick={() => setOpenMobileMenu(!openMobileMenu)}
           className="xl:hidden cursor-pointer"

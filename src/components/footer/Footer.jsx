@@ -33,6 +33,17 @@ export default function Footer() {
             priority
             fetchPriority="high"
           />
+          <a
+            href="https://maps.app.goo.gl/MupKxHV63Q5cBBd29"
+            className="bg-green-100  rounded-md flex items-center gap-5 p-3"
+            target="_bla"
+          >
+            <img src="/googlemaps.webp" alt="" className="w-20 h-20" />
+            <span>
+              19, near water tank, Bankhandi, Adarsh Nagar, Ganga Nagar,
+              Rishikesh, Uttarakhand 249201
+            </span>
+          </a>
           <p className="mt-6">
             A sacred space for healing and self-discovery through ancient Vedic
             traditions.
@@ -61,6 +72,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
       <p className="pt-4 text-center pb-5">
         Copyright 2024 © <a href="https://prebuiltui.com">Abhishek Gaur</a>. All
         Right Reserved.

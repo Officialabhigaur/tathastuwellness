@@ -122,7 +122,7 @@ export default function ContactForm() {
                 {/* SUBMIT BUTTON */}
                 <button
                     type="submit"
-                    className="flex items-center justify-center gap-1 mt-5 bg-green-800 hover:bg-green-900 text-white py-2.5 w-full rounded-full transition"
+                    className="flex items-center justify-center gap-1 mt-5 bg-green-800 hover:bg-green-900 text-white py-2.5 w-full rounded-full transition cursor-pointer"
                 >
                     Submit Form
                 </button>
