@@ -23,15 +23,15 @@ export default function Navbar() {
     },
     {
       name: "About",
-      href: "#features",
+      href: "/",
     },
     {
       name: "Services",
-      href: "#pricing",
+      href: "/",
     },
     {
       name: "Contact",
-      href: "#docs",
+      href: "/",
     },
   ];
 
@@ -55,39 +55,47 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
+
       {/* Mobile menu */}
       <div
-        className={`fixed inset-0 flex flex-col items-center justify-center gap-6 text-lg font-medium bg-white/40 backdrop-blur-md md:hidden transition duration-300 ${
+        className={`fixed inset-0 flex flex-col p-5  gap-1 text-lg font-medium bg-[#ffffff] md:hidden transition duration-300 ${
           openMobileMenu ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        {navLinks.map((link) => (
-          <Link key={link.name} href={link.href}>
-            {link.name}
-          </Link>
-        ))}
-        <button className="cursor-pointer">Sign in</button>
         <button
-          className="aspect-square size-10 p-1 items-center justify-center bg-indigo-600 hover:bg-indigo-700 transition text-white rounded-md flex"
+          className=" size-10 p-1 items-center justify-center bg-green-800 hover:bg-green-900 transition text-white rounded-md flex absolute right-1 top-1"
           onClick={() => setOpenMobileMenu(false)}
         >
           <XIcon />
         </button>
+        {navLinks.map((link) => (
+          <Link
+            key={link.name}
+            href={link.href}
+            className=" py-2 px-2  border-b-gray-300 border-b"
+            onClick={() => setOpenMobileMenu(false)}
+          >
+            {link.name}
+          </Link>
+        ))}
+        <button className="cursor-pointer bg-green-800 py-2 mt-5 rounded text-white">
+          Sign in
+        </button>
       </div>
-
 
       <div className="flex items-center gap-4">
         <Link
           href="tel:+31 654697512"
           className="hidden    cursor-pointer  md:flex  items-center  gap-2 px-4 py-2  transition rounded-md"
         >
-          <PhoneCall size={15} /> +31 654697512
+          <PhoneCall size={15} />
+          +91 7060880030
         </Link>
         <Link
           href="tel:+31 612546481"
           className="hidden    cursor-pointer  md:flex  items-center  gap-2 px-4 py-2  transition  rounded-md"
         >
-          <PhoneCall size={15} /> +31 612546481
+          <PhoneCall size={15} /> +91 9927067684
         </Link>
         <button className="hidden cursor-pointer xl:block  transition px-4 py-2   bg-green-800 text-white rounded-md">
           Sign in
