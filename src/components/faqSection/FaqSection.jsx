@@ -35,7 +35,7 @@ const FaqSection = () => {
                     font-family: 'Poppins', sans-serif;
                 }
             `}</style>
-      <div className="max-w-3xl mx-auto flex flex-col items-center justify-center px-4 md:px-0">
+      <div className="max-w-3xl   mx-auto flex flex-col items-center justify-center px-4 md:px-0">
         <p className="text-green-800 text-sm font-medium">FAQ's</p>
         <h1 className="text-2xl sm:text-3xl text-green-900 font-semibold text-center">
           Looking for answer?

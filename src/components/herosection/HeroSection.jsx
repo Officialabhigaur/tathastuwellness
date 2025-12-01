@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="flex px-4 flex-col sm:justify-center max-md:gap-20 md:flex-row pt-30 sm:pt-40 sm:px-4 md:px-16 lg:px-24 xl:px-32    w-full h-[65vh] sm:h-[80vh] bg-[url('/hero-wellness.jpg')] bg-cover bg-center bg-no-repeat">
+    <section className="flex px-4 flex-col sm:justify-center max-md:gap-20 md:flex-row pt-30 sm:pt-40 sm:px-4 md:px-16 lg:px-24 xl:px-32    w-full h-[65vh] sm:h-[80vh] bg-[url('/hero-wellness.jpg')] bg-cover bg-center bg-no-repeat ">
       <div className="flex flex-col sm:items-center space-y-4  sm:space-y-6">
         <AvatarGroup />
         <h1 className="sm:text-center text-2xl text-left sm:text-5xl font-bold  md:text-6xl  max-w-6xl text-white">

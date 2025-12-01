@@ -53,7 +53,7 @@ export default function ContactForm() {
         <form
             action="https://formsubmit.co/3eeeb557f0647e82e624d8340d207179"
             method="POST"
-            className="flex flex-col items-center text-sm text-slate-800"
+            className="flex flex-col items-center text-sm text-slate-800 "
         >
             {/* REQUIRED for FormSubmit */}
             <input type="hidden" name="_captcha" value="false" />
@@ -68,18 +68,18 @@ export default function ContactForm() {
             <p className="max-md:text-sm text-gray-500 pb-10 text-center">
                 Or just reach out manually to us at{" "}
                 <a href="#" className="text-green-800 hover:underline">
-                    hello@prebuiltui.com
+                    sudhirindia.gupta@gmail.com
                 </a>
             </p>
 
             <div className="max-w-96 w-full px-4">
                 {/* NAME */}
                 <label className="font-medium">Full Name</label>
-                <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full">
+                <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
                     <input
                         type="text"
                         name="name"
-                        className="h-full px-2 w-full outline-none bg-transparent"
+                        className="h-full px-2 w-full outline-none bg-transparent  "
                         placeholder="Enter your full name"
                         required
                     />
@@ -87,7 +87,7 @@ export default function ContactForm() {
 
                 {/* PHONE */}
                 <label className="font-medium">Phone</label>
-                <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full">
+                <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
                     <input
                         type="tel"
                         name="phone"
@@ -99,7 +99,7 @@ export default function ContactForm() {
 
                 {/* EMAIL */}
                 <label className="font-medium mt-4">Email Address</label>
-                <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full">
+                <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
                     <input
                         type="email"
                         name="email"
@@ -114,7 +114,7 @@ export default function ContactForm() {
                 <textarea
                     name="message"
                     rows="4"
-                    className="w-full mt-2 p-2 bg-transparent border border-slate-300 rounded-lg resize-none outline-none"
+                    className="w-full mt-2 p-2 bg-transparent border border-slate-300 rounded-lg resize-none outline-none focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden"
                     placeholder="Enter your message"
                     required
                 ></textarea>

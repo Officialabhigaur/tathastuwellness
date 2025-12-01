@@ -85,17 +85,17 @@ export default function Navbar() {
 
       <div className="flex items-center gap-4">
         <Link
-          href="tel:+31 654697512"
-          className="hidden    cursor-pointer  md:flex  items-center  gap-2 px-4 py-2  transition rounded-md"
+          href="tel: +91 7060880030"
+          className="hidden    cursor-pointer  md:flex  items-center  gap-2 px-4 py-2  transition rounded-md "
         >
-          <PhoneCall size={15} />
+          <PhoneCall size={15} className="animate-pulse" />
           +91 7060880030
         </Link>
         <Link
-          href="tel:+31 612546481"
-          className="hidden    cursor-pointer  md:flex  items-center  gap-2 px-4 py-2  transition  rounded-md"
+          href="tel:+91 9927067684"
+          className="hidden    cursor-pointer  md:flex  items-center  gap-2 px-4 py-2  transition  rounded-md "
         >
-          <PhoneCall size={15} /> +91 9927067684
+          <PhoneCall size={15} className="animate-pulse" /> +91 9927067684
         </Link>
         {/* <button className="hidden cursor-pointer xl:block  transition px-4 py-2   bg-green-800 text-white rounded-md">
           Sign in

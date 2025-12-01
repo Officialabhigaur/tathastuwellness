@@ -57,7 +57,7 @@ const ScrollingCards = () => {
                 }
             `}</style>
 
-      <div className="px-3">
+      <div className="px-3 ">
         <h2 className="text-2xl text-green-900  sm:text-4xl font-semibold text-center mx-auto">
           A Complete Pathway to Holistic Wellness
         </h2>
@@ -82,7 +82,7 @@ const ScrollingCards = () => {
             animationDuration: cardData.length * 2500 + "ms",
           }}
         >
-          <div className="flex">
+          <div className="flex ">
             {[...cardData].map((card, index) => (
               <div
                 key={index}
