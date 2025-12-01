@@ -11,11 +11,11 @@ export default function ServiceCards() {
                 }
             `}</style>
 
-      <div>
+      <div className="px-2">
         <h2 className="text-2xl text-green-900  sm:text-4xl  font-semibold text-center ">
           Our Services
         </h2>
-        <p className="text-sm text-slate-500 text-center  mt-2 max-w-6xl mx-auto">
+        <p className="text-sm text-slate-500 sm:text-center text-justify  mt-2 max-w-6xl mx-auto">
           We offer a diverse range of holistic services that blend ancient
           Indian wisdom with modern well-being practices, helping you restore
           balance, gain deeper insight, and experience true harmony in your

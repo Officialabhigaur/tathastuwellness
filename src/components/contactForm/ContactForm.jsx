@@ -1,12 +1,12 @@
 // export default function ContactForm() {
 //     return (
 //         <form action="https://formsubmit.co/agaur0136@gmail.com" className="flex flex-col items-center text-sm text-slate-800" method="POST">
-            
+
 //             <h1 className="text-4xl font-bold py-4 text-center text-green-800">Let’s Get In Touch.</h1>
 //             <p className="max-md:text-sm text-gray-500 pb-10 text-center">
 //                 Or just reach out manually to us at <a href="#" className="text-green-800 hover:underline">hello@prebuiltui.com</a>
 //             </p>
-            
+
 //             <div className="max-w-96 w-full px-4">
 //                 <label htmlFor="name" className="font-medium">Full Name</label>
 //                 <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
@@ -23,7 +23,7 @@
 //                     </svg>
 //                     <input type="tel" className="h-full px-2 w-full outline-none bg-transparent" placeholder="Enter your phone number" required />
 //                 </div>
-        
+
 //                 <label htmlFor="email-address" className="font-medium mt-4">Email Address</label>
 //                 <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
 //                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,10 +31,10 @@
 //                     </svg>
 //                     <input type="email" className="h-full px-2 w-full outline-none bg-transparent" placeholder="Enter your email address" required />
 //                 </div>
-        
+
 //                 <label htmlFor="message" className="font-medium mt-4">Message</label>
 //                 <textarea rows="4" className="w-full mt-2 p-2 bg-transparent border border-slate-300 rounded-lg resize-none outline-none focus:ring-2 focus-within:ring-green-800 transition-all" placeholder="Enter your message" required></textarea>
-                
+
 //                 <button type="submit" className="flex items-center justify-center gap-1 mt-5 bg-green-800 hover:bg-green-900 text-white py-2.5 w-full rounded-full transition cursor-pointer">
 //                     Submit Form
 //                     <svg className="mt-0.5" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,87 +46,96 @@
 //     );
 // };
 
-
-
 export default function ContactForm() {
-    return (
-        <form
-            action="https://formsubmit.co/3eeeb557f0647e82e624d8340d207179"
-            method="POST"
-            className="flex flex-col items-center text-sm text-slate-800 "
+  return (
+    <form
+      action="https://formsubmit.co/3eeeb557f0647e82e624d8340d207179"
+      method="POST"
+      className="flex flex-col items-center text-sm text-slate-800 "
+    >
+      {/* REQUIRED for FormSubmit */}
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <input
+        type="hidden"
+        name="_subject"
+        value="New Contact Form Submission"
+      />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://yourwebsite.com/thank-you"
+      />
+
+      <h1 className="text-4xl font-bold py-4 text-center text-green-800">
+        Let’s Get In Touch.
+      </h1>
+
+      <p className="max-md:text-sm text-gray-500 pb-10 text-center">
+        Or just reach out manually to us at{" "}
+        <a
+          href="mailto:sudhirindia.gupta@gmail.com"
+          className="text-green-800 hover:underline"
         >
-            {/* REQUIRED for FormSubmit */}
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_subject" value="New Contact Form Submission" />
-            <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" />
+          sudhirindia.gupta@gmail.com
+        </a>
+      </p>
 
-            <h1 className="text-4xl font-bold py-4 text-center text-green-800">
-                Let’s Get In Touch.
-            </h1>
+      <div className="max-w-96 w-full px-4">
+        {/* NAME */}
+        <label className="font-medium">Full Name</label>
+        <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
+          <input
+            type="text"
+            name="name"
+            className="h-full px-2 w-full outline-none bg-transparent  "
+            placeholder="Enter your full name"
+            required
+          />
+        </div>
 
-            <p className="max-md:text-sm text-gray-500 pb-10 text-center">
-                Or just reach out manually to us at{" "}
-                <a href="#" className="text-green-800 hover:underline">
-                    sudhirindia.gupta@gmail.com
-                </a>
-            </p>
+        {/* PHONE */}
+        <label className="font-medium">Phone</label>
+        <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
+          <input
+            type="tel"
+            name="phone"
+            className="h-full px-2 w-full outline-none bg-transparent"
+            placeholder="Enter your phone number"
+            required
+          />
+        </div>
 
-            <div className="max-w-96 w-full px-4">
-                {/* NAME */}
-                <label className="font-medium">Full Name</label>
-                <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
-                    <input
-                        type="text"
-                        name="name"
-                        className="h-full px-2 w-full outline-none bg-transparent  "
-                        placeholder="Enter your full name"
-                        required
-                    />
-                </div>
+        {/* EMAIL */}
+        <label className="font-medium mt-4">Email Address</label>
+        <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
+          <input
+            type="email"
+            name="email"
+            className="h-full px-2 w-full outline-none bg-transparent"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
 
-                {/* PHONE */}
-                <label className="font-medium">Phone</label>
-                <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
-                    <input
-                        type="tel"
-                        name="phone"
-                        className="h-full px-2 w-full outline-none bg-transparent"
-                        placeholder="Enter your phone number"
-                        required
-                    />
-                </div>
+        {/* MESSAGE */}
+        <label className="font-medium mt-4">Message</label>
+        <textarea
+          name="message"
+          rows="4"
+          className="w-full mt-2 p-2 bg-transparent border border-slate-300 rounded-lg resize-none outline-none focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden"
+          placeholder="Enter your message"
+          required
+        ></textarea>
 
-                {/* EMAIL */}
-                <label className="font-medium mt-4">Email Address</label>
-                <div className="flex items-center mt-2 mb-4 h-10 pl-3 border border-slate-300 rounded-full focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden">
-                    <input
-                        type="email"
-                        name="email"
-                        className="h-full px-2 w-full outline-none bg-transparent"
-                        placeholder="Enter your email address"
-                        required
-                    />
-                </div>
-
-                {/* MESSAGE */}
-                <label className="font-medium mt-4">Message</label>
-                <textarea
-                    name="message"
-                    rows="4"
-                    className="w-full mt-2 p-2 bg-transparent border border-slate-300 rounded-lg resize-none outline-none focus-within:ring-2 focus-within:ring-green-800 transition-all overflow-hidden"
-                    placeholder="Enter your message"
-                    required
-                ></textarea>
-
-                {/* SUBMIT BUTTON */}
-                <button
-                    type="submit"
-                    className="flex items-center justify-center gap-1 mt-5 bg-green-800 hover:bg-green-900 text-white py-2.5 w-full rounded-full transition cursor-pointer"
-                >
-                    Submit Form
-                </button>
-            </div>
-        </form>
-    );
-};
+        {/* SUBMIT BUTTON */}
+        <button
+          type="submit"
+          className="flex items-center justify-center gap-1 mt-5 bg-green-800 hover:bg-green-900 text-white py-2.5 w-full rounded-full transition cursor-pointer"
+        >
+          Submit Form
+        </button>
+      </div>
+    </form>
+  );
+}
