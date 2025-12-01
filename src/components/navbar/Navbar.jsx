@@ -37,12 +37,12 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`flex items-center justify-between fixed z-50 top-0 w-full px-6 md:px-16 lg:px-24 xl:px-32 py-4   bg-white/40 ${
+      className={`flex items-center justify-between fixed z-50 top-0 w-full px-6 md:px-16 lg:px-24 xl:px-32    bg-white/40 ${
         openMobileMenu ? "bg-white/80" : "backdrop-blur"
       }`}
     >
       <Link href="/" className="flex items-center gap-2">
-        Tathastu Ayurveda Wellness
+        <img src="/logo.png" alt="" className="w-20" />
       </Link>
       <div className="hidden items-center md:gap-8 lg:gap-9 xl:flex lg:pl-20">
         {navLinks.map((link) => (
