@@ -1,5 +1,6 @@
 import CallToAction from "@/components/callToAction/CallToAction";
 import ContactForm from "@/components/contactForm/ContactForm";
+import CourseCard from "@/components/courseCard/CourseCard";
 import FaqSection from "@/components/faqSection/FaqSection";
 import HeroSection from "@/components/herosection/HeroSection";
 import ScrollingCards from "@/components/scrollingCards/ScrollingCards";
@@ -13,6 +14,7 @@ export default function page() {
       <ServiceCards/>
       <ScrollingCards />
       <CallToAction />
+      <CourseCard/>
       <Testimonials />
       <ContactForm />
       <FaqSection />
