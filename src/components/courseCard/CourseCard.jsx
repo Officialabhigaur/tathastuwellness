@@ -114,7 +114,7 @@ export default function CourseCard() {
             
             </div>
             <h2 className="text-xl text-slate-500">
-              Pulse Diagnose (Ayurvedic life style consultation)
+              Pulse Diagnose 
             </h2>
 
             <div>
