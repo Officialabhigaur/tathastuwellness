@@ -53,7 +53,7 @@ export default function CourseCard() {
                 <CalendarDays size={15} />1 day
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-1 rounded">
+            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
               Learn More
             </button>
           </div>
@@ -78,7 +78,7 @@ export default function CourseCard() {
                 <CalendarDays size={15} />2 days
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-1 rounded">
+            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
               Learn More
             </button>
           </div>
@@ -103,7 +103,7 @@ export default function CourseCard() {
                 <CalendarDays size={15} />1 day
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-1 rounded">
+            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
               Learn More
             </button>
           </div>
@@ -129,7 +129,7 @@ export default function CourseCard() {
                 <CalendarDays size={15} />1 day
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-1 rounded">
+            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
               Learn More
             </button>
           </div>
@@ -152,7 +152,7 @@ export default function CourseCard() {
                 <CalendarDays size={15} />2 days
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-1 rounded">
+            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
               Learn More
             </button>
           </div>
@@ -176,7 +176,7 @@ export default function CourseCard() {
                 21 day
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-1 rounded">
+            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
               Learn More
             </button>
           </div>
@@ -201,7 +201,7 @@ export default function CourseCard() {
                 1-7 Days
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-1 rounded">
+            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
               Learn More
             </button>
           </div>
