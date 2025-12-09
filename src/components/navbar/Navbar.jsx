@@ -22,6 +22,10 @@ export default function Navbar() {
       href: "/",
     },
     {
+      name: "Invitation",
+      href: "/invitation",
+    },
+    {
       name: "About",
       href: "/",
     },

@@ -1,7 +1,9 @@
 import {
   HousePlus,
+  MapPinHouse,
   Mountain,
   PartyPopper,
+  PhoneCall,
   Users,
   UtensilsCrossed,
 } from "lucide-react";
@@ -101,51 +103,75 @@ const page = () => {
                 friends.
               </p>
             </div>
-
-            
           </div>
           <img src="/food.png" alt="" className="w-[250px] rounded-xl" />
         </div>
 
         <div className="space-y-5 mt-15">
-              <h2 className="text-3xl text-green-700 font-bold">Details</h2>
-              <p className=" text-gray-700 text-xl">
-                Your stay can be flexible, from a few days to several weeks or
-                months.
-              </p>
+          <h2 className="text-3xl text-green-700 font-bold">Details</h2>
+          <p className=" text-gray-700 text-xl">
+            Your stay can be flexible, from a few days to several weeks or
+            months.
+          </p>
 
-              <div className="flex gap-2">
-              <Users className="text-green-800 " size={30} strokeWidth={3} />
+          <div className="flex gap-2">
+            <Users className="text-green-800 " size={30} strokeWidth={3} />
 
-              <p className="text-xl text-gray-700 w-fit">
-                <strong>Accommodation:</strong> Cozy home stay with our family
-              </p>
-            </div>
+            <p className="text-xl text-gray-700 w-fit">
+              <strong>Accommodation:</strong> Cozy home stay with our family
+            </p>
+          </div>
 
-             <div className="flex gap-2">
-              <Users className="text-green-800 " size={30} strokeWidth={3} />
+          <div className="flex gap-2">
+            <Users className="text-green-800 " size={30} strokeWidth={3} />
 
-              <p className="text-xl text-gray-700 w-fit">
-                <strong>Activities:</strong> Ayurveda, Panchakarma, yoga, cultural events, local exploration, and more
-              </p>
-            </div>
+            <p className="text-xl text-gray-700 w-fit">
+              <strong>Activities:</strong> Ayurveda, Panchakarma, yoga, cultural
+              events, local exploration, and more
+            </p>
+          </div>
 
-            <hr className="text-green-500 mt-10"/>
+          <hr className="text-green-500 mt-10" />
 
-<p className="text-xl text-gray-700">If you're interested in experiencing the best of India, please don't hesitate to contact us. We'd love to welcome you to our home and share the richness of Indian culture with you.</p>
+          <p className="text-xl text-gray-700">
+            If you're interested in experiencing the best of India, please don't
+            hesitate to contact us. We'd love to welcome you to our home and
+            share the richness of Indian culture with you.
+          </p>
 
-<div>
-<p className="text-xl text-gray-700">Warm regards.</p>
-<p class="font-display text-2xl text-green-800 font-semibold">Sudheer &amp; Prachi</p>
-<p className="text-xl text-gray-700">Tathastu Wellnessess</p>
-</div>
-
-            
-
-
-            </div>
+          <div>
+            <p className="text-xl text-gray-700">Warm regards.</p>
+            <p className="font-display text-2xl text-green-800 font-semibold">
+              Sudheer &amp; Prachi
+            </p>
+            <p className="text-xl text-gray-700">Tathastu Wellnessess</p>
+          </div>
+        </div>
       </div>
-      <div className="w-[30%] bg-green-900 h-[500px] rounded-xl"></div>
+      <div className="w-[30%] bg-green-200 pb-10 rounded-xl px-5">
+        <div className="flex items-center flex-col">
+          <img src="/logo.png" alt="" className="w-[200px]" />
+        </div>
+
+        <div className=" border-t-2 border-b-2 border-green-400 py-5">
+          <h2 className="text-2xl text-center text-green-800 font-bold">
+            Contact Us
+          </h2>
+          <div className="space-y-4 mt-4">
+          <div className="flex items-start gap-2">
+            <MapPinHouse size={30} /> <p className="">19, near water tank, Bankhandi, Adarsh Nagar, Ganga Nagar, Rishikesh, Uttrakhand 249201</p>
+          </div>
+            <div className="flex items-center gap-2">
+              <PhoneCall size={15} />{" "}
+              <a href="tel:+91 7060880030">+91 7060880030</a>
+            </div>
+            <div className="flex items-center gap-2">
+              <PhoneCall size={15} />{" "}
+              <a href="tel:+91 9927067684">+91 7060880030</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
