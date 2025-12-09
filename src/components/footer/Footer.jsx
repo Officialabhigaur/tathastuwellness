@@ -73,7 +73,7 @@ export default function Footer() {
       </div>
 
       <p className="pt-4 text-center pb-5">
-        Copyright 2025 © <a href="https://prebuiltui.com">Tathastu wellness</a>.
+        Copyright 2025 © <a href="https://prebuiltui.com">Tathastu wellnessess</a>.
         All Right Reserved.
         <br />
         <a
