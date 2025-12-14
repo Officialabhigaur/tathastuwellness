@@ -25,7 +25,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-200 pb-6">
         <div className="md:max-w-114">
           <a href="#">
-            <img src="/logo.png" className=" w-30 sm:w-20"></img>
+            <img src="/footer-logo.png" className=" w-30 sm:w-20"></img>
           </a>
           <a
             href="https://maps.app.goo.gl/MupKxHV63Q5cBBd29"
@@ -73,7 +73,7 @@ export default function Footer() {
       </div>
 
       <p className="pt-4 text-center pb-5">
-        Copyright 2025 © <a href="https://prebuiltui.com">Tathastu Wellnesses</a>.
+        Copyright 2025 © <a href="https://tathastuwelnesses.com">Tathastu Wellnesses</a>.
         All Right Reserved.
         <br />
         <a
