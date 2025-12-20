@@ -1,4 +1,5 @@
 import { CalendarDays, Clock, Droplets, Euro, Flower, HandHeart, HeartPulse, Leaf, Salad, Sparkles } from "lucide-react";
+import Link from "next/link";
 
 export default function CourseCard() {
   return (
@@ -35,6 +36,7 @@ export default function CourseCard() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+
           <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent space-y-3 transition duration-500">
             <div className="w-15 flex items-center justify-center h-15  rounded-full bg-green-200">
               <Flower size={30} className="text-green-800" />
@@ -53,9 +55,9 @@ export default function CourseCard() {
                 <CalendarDays size={15} />1 day
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
+            <Link href={`/programs`} className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center  py-2 rounded">
               Learn More
-            </button>
+            </Link>
           </div>
 
           <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent space-y-3 transition duration-500">
@@ -78,9 +80,9 @@ export default function CourseCard() {
                 <CalendarDays size={15} />2 days
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
+             <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
               Learn More
-            </button>
+            </Link>
           </div>
 
           <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent space-y-3 transition duration-500">
@@ -103,9 +105,9 @@ export default function CourseCard() {
                 <CalendarDays size={15} />1 day
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
+              <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
               Learn More
-            </button>
+            </Link>
           </div>
 
           <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent space-y-3 transition duration-500">
@@ -129,9 +131,9 @@ export default function CourseCard() {
                 <CalendarDays size={15} />1 day
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
+             <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
               Learn More
-            </button>
+            </Link>
           </div>
 
           <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent space-y-3 transition duration-500">
@@ -152,9 +154,9 @@ export default function CourseCard() {
                 <CalendarDays size={15} />2 days
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
+            <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
               Learn More
-            </button>
+            </Link>
           </div>
 
           <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent space-y-3 transition duration-500">
@@ -176,9 +178,9 @@ export default function CourseCard() {
                 21 day
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
+              <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
               Learn More
-            </button>
+            </Link>
           </div>
 
           <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent space-y-3 transition duration-500">
@@ -201,9 +203,9 @@ export default function CourseCard() {
                 1-7 Days
               </p>
             </div>
-            <button className="bg-green-900 cursor-pointer text-white w-full text-xl py-2 rounded">
+           <Link href="/programs"  className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </section>
