@@ -2,6 +2,7 @@ import React from "react";
 import AvatarGroup from "../avatargroup/AvatarGroup";
 import { ChevronRightIcon, SparklesIcon } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -16,9 +17,9 @@ const HeroSection = () => {
           and Vedic Astrology to Transform Your Entire Being.
         </p>
         <div className="flex items-center gap-4  ">
-          <button className="bg-green-800 hover:bg-green-900 duration-300 text-[.9rem] p-2   sm:text-sm cursor-pointer  text-white font-semibold sm:px-5 sm:py-3 rounded">
+          <Link href="/contact" className="bg-green-800 hover:bg-green-900 duration-300 text-[.9rem] p-2   sm:text-sm cursor-pointer  text-white font-semibold sm:px-5 sm:py-3 rounded">
             Book Consultation
-          </button>
+          </Link>
           <button className=" text-[.9rem] cursor-pointer  transition-all bg-[#b9f9b5]  duration-300   sm:text-sm p-2 font-semibold  text-green-800 hover:bg-[#92ff8a] sm:px-5 sm:py-3 rounded">
             Explore Services
           </button>

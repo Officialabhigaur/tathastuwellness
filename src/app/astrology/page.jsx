@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import React from "react";
 
-const page = () => {
+const astrology = () => {
   return (
     <main className="mt-20  flex flex-col min-h-screen">
       <section className="relative bg-gray-100 pt-8 pb-12 px-4 sm:px-10">
@@ -94,9 +94,7 @@ const page = () => {
                   <span>Book Session Now</span>
                   <MoveRight />
                 </button>
-                <button className="flex-1 sm:flex-none cursor-pointer py-4 px-8 bg-white dark:bg-white/10 border border-gray-200 dark:border-white/10 hover:bg-gray-50 dark:hover:bg-white/20 text-text-main dark:text-white text-base font-bold rounded-xl transition-all flex items-center justify-center">
-                  Gift this Service
-                </button>
+               
               </div>
             </div>
 
@@ -339,4 +337,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default astrology;

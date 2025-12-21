@@ -1,4 +1,15 @@
-import { CalendarDays, Clock, Droplets, Euro, Flower, HandHeart, HeartPulse, Leaf, Salad, Sparkles } from "lucide-react";
+import {
+  CalendarDays,
+  Clock,
+  Droplets,
+  Euro,
+  Flower,
+  HandHeart,
+  HeartPulse,
+  Leaf,
+  Salad,
+  Sparkles,
+} from "lucide-react";
 import Link from "next/link";
 
 export default function CourseCard() {
@@ -30,13 +41,14 @@ export default function CourseCard() {
           <span>Packages</span>
         </div>
         <h1 className="text-3xl font-medium bg-gradient-to-r from-slate-800 to-slate-500 text-transparent bg-clip-text mt-4">
-          Holistic practices for a balanced mind, body, and spirit       </h1>
+          Holistic practices for a balanced mind, body, and spirit{" "}
+        </h1>
         <p className="text-slate-500 mt-4 max-w-2xl">
-          Embark a journey of self-discovery and holistic  well-being with our ancient wisdom-based practices
+          Embark a journey of self-discovery and holistic well-being with our
+          ancient wisdom-based practices
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-
           <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent space-y-3 transition duration-500">
             <div className="w-15 flex items-center justify-center h-15  rounded-full bg-green-200">
               <Flower size={30} className="text-green-800" />
@@ -55,7 +67,10 @@ export default function CourseCard() {
                 <CalendarDays size={15} />1 day
               </p>
             </div>
-            <Link href={`/programs`} className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center  py-2 rounded">
+            <Link
+              href={`/beauty`}
+              className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center  py-2 rounded"
+            >
               Learn More
             </Link>
           </div>
@@ -74,13 +89,16 @@ export default function CourseCard() {
               </p>
               <p className="flex items-center gap-2">
                 <Clock size={15} />
-                Around 3 Hours
+                Around 6 Hours
               </p>
               <p className="flex items-center gap-2">
                 <CalendarDays size={15} />2 days
               </p>
             </div>
-             <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
+            <Link
+              href="/programs"
+              className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded"
+            >
               Learn More
             </Link>
           </div>
@@ -105,7 +123,10 @@ export default function CourseCard() {
                 <CalendarDays size={15} />1 day
               </p>
             </div>
-              <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
+            <Link
+              href="/programs"
+              className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded"
+            >
               Learn More
             </Link>
           </div>
@@ -113,11 +134,8 @@ export default function CourseCard() {
           <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent space-y-3 transition duration-500">
             <div className="w-15 flex items-center justify-center h-15  rounded-full bg-green-200">
               <HeartPulse size={30} className="text-green-800" />
-            
             </div>
-            <h2 className="text-xl text-slate-500">
-              Pulse Diagnose 
-            </h2>
+            <h2 className="text-xl text-slate-500">Pulse Diagnose</h2>
 
             <div>
               <p className="flex items-center gap-2">
@@ -125,13 +143,16 @@ export default function CourseCard() {
               </p>
               <p className="flex items-center gap-2">
                 <Clock size={15} />
-                Around 3 Hours
+                Around 1 Hours
               </p>
               <p className="flex items-center gap-2">
                 <CalendarDays size={15} />1 day
               </p>
             </div>
-             <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
+            <Link
+              href="/programs"
+              className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded"
+            >
               Learn More
             </Link>
           </div>
@@ -154,7 +175,10 @@ export default function CourseCard() {
                 <CalendarDays size={15} />2 days
               </p>
             </div>
-            <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
+            <Link
+              href="/astrology"
+              className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded"
+            >
               Learn More
             </Link>
           </div>
@@ -171,14 +195,17 @@ export default function CourseCard() {
               </p>
               <p className="flex items-center gap-2">
                 <Clock size={15} />
-                Around 3 Hours
+                Stay,Food,Therapies included
               </p>
               <p className="flex items-center gap-2">
                 <CalendarDays size={15} />
                 21 day
               </p>
             </div>
-              <Link href="/programs" className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
+            <Link
+              href="/programs"
+              className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded"
+            >
               Learn More
             </Link>
           </div>
@@ -196,14 +223,17 @@ export default function CourseCard() {
               </p>
               <p className="flex items-center gap-2">
                 <Clock size={15} />
-                Around 3 Hours
+                Stay,Food,Therapies included
               </p>
               <p className="flex items-center gap-2">
                 <CalendarDays size={15} />
                 1-7 Days
               </p>
             </div>
-           <Link href="/programs"  className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded">
+            <Link
+              href="/programs"
+              className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded"
+            >
               Learn More
             </Link>
           </div>

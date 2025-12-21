@@ -17,7 +17,7 @@ const page = () => {
           Heartily Invitation to India
         </h1>
         <p className="text-md mt-3 md:text-2xl text-gray-600">
-          Dear friends from Netherlands,
+          Dear friends ,
         </p>
         <p className="mt-4 md:mt-8 text-md md:text-2xl text-gray-600 text-justify">
           We're excited to invite you to experience the warmth and richness of
