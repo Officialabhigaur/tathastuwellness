@@ -96,7 +96,7 @@ export default function CourseCard() {
               </p>
             </div>
             <Link
-              href="/programs"
+              href="/massage"
               className="bg-green-900 cursor-pointer text-white w-full text-xl inline-block text-center py-2 rounded"
             >
               Learn More

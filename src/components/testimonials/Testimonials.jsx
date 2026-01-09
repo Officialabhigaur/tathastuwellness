@@ -1,3 +1,5 @@
+
+
 const Testimonials = () => {
   const cardsData = [
     {
@@ -104,9 +106,9 @@ const Testimonials = () => {
               />
             </svg>
           </div>
-          <p className="text-sm mt-3 text-gray-500">
+          <a href="https://www.google.com/search?sca_esv=b045502d5b8a8873&sxsrf=ANbL-n5qMxfuNpHn_k5kQVRsarAOj-AI6g:1767945241784&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOZIdUZQ7eAsDqt7TwzhtZ9Dm0KwolBC_xN3Zo_C9oLWeT_1qDC3NYkm8odMEWM07SXjkk8ze4LQw9VXbmEHPrVWaCYZEE8mNg916igX3gv82TnHDyQ%3D%3D&q=Tathastu+Wellness+Reviews&sa=X&ved=2ahUKEwiRwvmg_f2RAxX3SWwGHdAFCEoQ0bkNegQIHhAE&biw=1536&bih=695&dpr=1.25&aic=0" className="text-sm mt-3 text-gray-500">
             {card.message.slice(0, 155) + " read more..."}
-          </p>
+          </a>
           <div className="flex items-center gap-3 mt-4">
             <div>
               <h2 className="text-lg text-gray-900 font-medium">{card.name}</h2>
