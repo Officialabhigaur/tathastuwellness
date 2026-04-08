@@ -165,7 +165,7 @@ export default function CourseCard() {
 
             <div>
               <p className="flex items-center gap-2">
-                <Euro size={15} /> <span>120 Euros/Hour</span>
+                <Euro size={15} /> <span>120 Euros</span>
               </p>
               <p className="flex items-center gap-2">
                 <Clock size={15} />
